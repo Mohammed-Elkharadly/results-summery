@@ -14,7 +14,6 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 100px;
 }
 
 @media (max-width: 767px) {
@@ -29,6 +28,7 @@ main .container {
   background-color: white;
   border-radius: 20px;
   box-shadow: 0 20px 20px 15px hsl(221, 100%, 96%);
+  margin-top: 200px;
 }
 
 @media (max-width: 767px) {
@@ -170,6 +170,7 @@ main .container .box-2 ul li .icon {
 
 main .container .box-2 ul li .icon span {
     margin-left: 10px;
+    font-size: 18px;
 }
 
 main .container .box-2 ul li .info {
