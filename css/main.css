@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+@media (max-width: 767px) {
+    main {
+        display: block;
+        padding: 0;
+    }
+}
+
+main .container {
+  display: flex;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 20px 20px 15px hsl(221, 100%, 96%);
+}
+
+@media (max-width: 767px) {
+    main .container {
+        flex-direction: column;
+    }
+}
+
+main .container .box-1 {
+  background-image: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px 45px;
+}
+
+@media (max-width: 767px) {
+    main .container .box-1 {
+        border-radius: 0 0 20px 20px ;
+    }
+}
+
+main .container .box-1 h1 {
+  font-size: 20px;
+  color: hsl(241, 100%, 89%);
+  padding-bottom: 30px;
+  text-transform: capitalize;
+}
+
+main .container .box-1 .text {
+  background-image: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: hsl(241, 100%, 89%);
+}
+
+main .container .box-1 .text .number {
+  font-size: 65px;
+  color: white;
+}
+
+main .container .box-1 h2 {
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+
+main .container .box-1 p {
+  max-width: 240px;
+  color: hsl(241, 100%, 89%);
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+
+@media (max-width: 767px) {
+    main .container .box-1 p {
+        max-width: 100%;
+    }
+}
+
+main .container .box-2 ul h3 {
+  font-size: 20px;
+  color: hsl(224, 30%, 27%);
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+main .container .box-2 ul {
+  list-style-type: none;
+  padding: 20px;
+  width: 305px;
+}
+
+@media (max-width: 767px) {
+    main .container .box-2 ul {
+        width: 100%;
+    }
+}
+
+main .container .box-2 ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+main .container .box-2 ul .reaction {
+    background-color: hsl(0deg 100% 67% / 10%);
+}
+
+main .container .box-2 ul .reaction .icon span {
+    color: hsl(0, 100%, 67%);
+}
+
+main .container .box-2 ul .memory {
+    background-color: hsl(39deg 100% 56% / 10%);
+}
+
+main .container .box-2 ul .memory .icon span {
+    color: hsl(39, 100%, 56%);
+}
+
+main .container .box-2 ul .verbal {
+    background-color: hsl(166deg 100% 37% / 10%);
+}
+
+main .container .box-2 ul .verbal .icon span {
+    color: hsl(166, 100%, 37%);
+}
+
+main .container .box-2 ul .visual {
+    background-color: hsl(234deg 85% 45% / 10%);
+}
+
+main .container .box-2 ul .visual .icon span {
+    color: hsl(234, 85%, 45%);
+}
+
+main .container .box-2 ul li .icon {
+  display: flex;
+  align-items: center;
+}
+
+main .container .box-2 ul li .icon span {
+    margin-left: 10px;
+}
+
+main .container .box-2 ul li .info {
+  display: flex;
+  align-items: center;
+}
+
+main .container .box-2 ul li .info .p {
+    margin-left: 10px;
+    color: hsl(241, 100%, 89%);
+}
+
+main .container .box-2 ul a {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    color: hsl(241, 100%, 89%);
+    transition: .5s;
+    text-decoration: none;
+    background-color: hsl(224, 30%, 27%);
+    padding: 15px;
+    border-radius: 20vh;
+    cursor: pointer;
+}
+
+main .container .box-2 ul a:hover {
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),hsl(241, 81%, 54%));
+} 
