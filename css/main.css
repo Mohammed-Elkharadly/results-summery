@@ -14,6 +14,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 100px;
 }
 
 @media (max-width: 767px) {
@@ -28,7 +29,6 @@ main .container {
   background-color: white;
   border-radius: 20px;
   box-shadow: 0 20px 20px 15px hsl(221, 100%, 96%);
-  margin-top: 200px;
 }
 
 @media (max-width: 767px) {
@@ -110,19 +110,19 @@ main .container .box-2 ul h3 {
   text-transform: capitalize;
 }
 
-main .container .box-2 ul {
+main .container .box-2 .summery-info {
   list-style-type: none;
   padding: 20px;
   width: 305px;
 }
 
 @media (max-width: 767px) {
-    main .container .box-2 ul {
+    main .container .box-2 .summery-info {
         width: 100%;
     }
 }
 
-main .container .box-2 ul li {
+main .container .box-2 .summery-info .information {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -131,59 +131,59 @@ main .container .box-2 ul li {
     border-radius: 10px;
 }
 
-main .container .box-2 ul .reaction {
+main .container .box-2 .summery-info .reaction {
     background-color: hsl(0deg 100% 67% / 10%);
 }
 
-main .container .box-2 ul .reaction .icon span {
+main .container .box-2 .summery-info .reaction .icon span {
     color: hsl(0, 100%, 67%);
 }
 
-main .container .box-2 ul .memory {
+main .container .box-2 .summery-info .memory {
     background-color: hsl(39deg 100% 56% / 10%);
 }
 
-main .container .box-2 ul .memory .icon span {
+main .container .box-2 .summery-info .memory .icon span {
     color: hsl(39, 100%, 56%);
 }
 
-main .container .box-2 ul .verbal {
+main .container .box-2 .summery-info .verbal {
     background-color: hsl(166deg 100% 37% / 10%);
 }
 
-main .container .box-2 ul .verbal .icon span {
+main .container .box-2 .summery-info .verbal .icon span {
     color: hsl(166, 100%, 37%);
 }
 
-main .container .box-2 ul .visual {
+main .container .box-2 .summery-info .visual {
     background-color: hsl(234deg 85% 45% / 10%);
 }
 
-main .container .box-2 ul .visual .icon span {
+main .container .box-2 .summery-info .visual .icon span {
     color: hsl(234, 85%, 45%);
 }
 
-main .container .box-2 ul li .icon {
+main .container .box-2 .summery-info .information .icon {
   display: flex;
   align-items: center;
 }
 
-main .container .box-2 ul li .icon span {
+main .container .box-2 .summery-info .information .icon span {
     margin-left: 10px;
     font-size: 18px;
 }
 
-main .container .box-2 ul li .info {
+main .container .box-2 .summery-info .information .info {
   display: flex;
   align-items: center;
 }
 
-main .container .box-2 ul li .info .p {
+main .container .box-2 .summery-info .information .info .p {
     margin-left: 10px;
     color: hsl(241, 100%, 89%);
 }
 
-main .container .box-2 ul a {
+main .container .box-2 .summery-info a {
     display: block;
     text-align: center;
     margin-top: 40px;
@@ -196,6 +196,6 @@ main .container .box-2 ul a {
     cursor: pointer;
 }
 
-main .container .box-2 ul a:hover {
+main .container .box-2 .summery-info a:hover {
     background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),hsl(241, 81%, 54%));
 } 
